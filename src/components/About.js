@@ -6,20 +6,20 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Reed.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            Hi, I'm Pala Tej Deep.
+            <br className="hidden lg:inline-block" />I love working on Machine Learning and Artificial Intelligence.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+          I'm Pala Tej Deep, a Final Year Undergraduate at SUTD, majoring in Computer Science and Design. My unwavering passion for Artificial Intelligence and Machine Learning drives my journey. Proficient in Java and Python, I specialize in machine learning, data analytics, and visualization, while also excelling in Android and Web app development. With a strong mathematical foundation and deep knowledge of AI and ML algorithms, I confidently tackle complex challenges.
+          </p>
+          <p className="mb-8 leading-relaxed">
+          My meticulous nature extends to communication and teamwork, making me an asset in collaborative environments. I value excellence and continuous improvement in all my professional pursuits. Let's connect and explore opportunities to leverage AI and ML for innovative solutions together.
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              Contact Me
             </a>
             <a
               href="#projects"

@@ -51,10 +51,20 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Machine Learning",
+  "Data Science",
+  "Artificial Intelligence",
+  "Deep Learning",
+  "Computer Vision",
+  "Natural Language Processing",
+  "Reinforcement Learning",
+  "Recommendation Systems",
+  "Python",
+  "Java",
+  "Pytorch",
+  "Tensorflow",
+  "Scikit-Learn",
+  "Pandas",
+  "Numpy",
+  "Matplotlib/Seaborn",
 ];

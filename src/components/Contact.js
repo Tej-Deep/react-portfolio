@@ -1,6 +1,7 @@
 // src/components/Contact.js
 
 import React from "react";
+import { PaperAirplaneIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -47,21 +48,21 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
+                Blk 612, Hougang Avenue 8 <br />
+                Singapore, S530612
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+              <a className="text-indigo-400 leading-relaxed" href = "mailto:ptejdeep@gmail.com">
+                ptejdeep@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">+65-8801-4471</p>
             </div>
           </div>
         </div>
@@ -71,11 +72,10 @@ export default function Contact() {
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          You're welcome to contact me for any inquiries, collaborations, or connections. I appreciate your interest and look forward to engaging with you. Feel free to reach out via email or the form below, and let's explore opportunities together.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -116,8 +116,9 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            Message <PaperAirplaneIcon className="w-5 h-5 ml-3 rotate-90" />
           </button>
         </form>
       </div>
