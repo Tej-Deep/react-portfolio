@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Panasonic R&D Center Singapore",
+    subtitle: "Advanced AI Algorithm Development Intern",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Conducted literature review, Developed and tested proof of concept prototypes for applications utilizing Video and Text Summarization, Shot Detection, Recommendation Systems, 3D Face Generation and Animation, and Chatbots",
+    image: "./PRDCSG.png",
+    link: "https://research.sg.panasonic.com/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Depth Estimation",
+    subtitle: "Pytorch and Computer Vision",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Led a group of 3 to research and design small AI models (CNNs) to tackle monocular depth estimation with faster inference time and performance close to larger state-of-the-art Vision Transformer models.",
+    image: "./Depth_Estimation.png",
+    link: "https://github.com/Tej-Deep/CDS_Depth_Estimation",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Multi-label ECG Classification",
+    subtitle: "Pytorch and Signal Processing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Coordinated with another classmate to develop and evaluate deep learning models, utilizing ECG signals and clinical notes to automate the classification of cardiac abnormalities and increase efficiency of diagnosis.",
+    image: "./ekg-heart-rate.gif",
+    link: "https://github.com/Tej-Deep/Deep_Learning_ECGclassification",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Food Establishment Autonomous Spatial Tracking (FEAST)",
+    subtitle: "Android App Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Collaborated as a group of 7 to design and implement an Android app to track the number of people at food establishments to enable diners with busy schedules to make informed decisions and avoid long waiting times and queues",
+    image: "./people-counting.gif",
+    link: "https://istd.sutd.edu.sg/term4-design-exhibition/50001/food-establishment-autonomous-spatial-tracking-feast",
   },
 ];
 
