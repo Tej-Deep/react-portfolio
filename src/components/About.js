@@ -7,12 +7,13 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Pala Tej Deep.
+            <br className="hidden lg:inline-block" />
             <br className="hidden lg:inline-block" />I love working on Machine Learning and Artificial Intelligence.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-justify">
           I'm Pala Tej Deep, a Final Year Undergraduate at SUTD, majoring in Computer Science and Design. My unwavering passion for Artificial Intelligence and Machine Learning drives my journey. Proficient in Java and Python, I specialize in machine learning, data analytics, and visualization, while also excelling in Android and Web app development. With a strong mathematical foundation and deep knowledge of AI and ML algorithms, I confidently tackle complex challenges.
           </p>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-justify">
           My meticulous nature extends to communication and teamwork, making me an asset in collaborative environments. I value excellence and continuous improvement in all my professional pursuits. Let's connect and explore opportunities to leverage AI and ML for innovative solutions together.
           </p>
           <div className="flex justify-center">
@@ -30,9 +31,9 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-full"
             alt="hero"
-            src="./coding.svg"
+            src="./profile_pic.jpg"
           />
         </div>
       </div>

@@ -3,7 +3,7 @@ export const projects = [
     title: "Panasonic R&D Center Singapore",
     subtitle: "Advanced AI Algorithm Development Intern",
     description:
-      "Conducted literature review, Developed and tested proof of concept prototypes for applications utilizing Video and Text Summarization, Shot Detection, Recommendation Systems, 3D Face Generation and Animation, and Chatbots",
+      "Conducted literature review, and developed proof of concept prototypes for applications utilizing Video and Text Summarization, Shot Detection, Recommendation Systems, 3D Face Generation and Animation, and Chatbots",
     image: "./PRDCSG.png",
     link: "https://research.sg.panasonic.com/",
   },
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Pytorch and Computer Vision",
     description:
       "Led a group of 3 to research and design small AI models (CNNs) to tackle monocular depth estimation with faster inference time and performance close to larger state-of-the-art Vision Transformer models.",
-    image: "./Depth_Estimation.png",
+    image: "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/346315222_3060808950895266_4424650503650448548_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_ohc=rqY2Ud5acTIAX9xZro4&_nc_ht=scontent-sin6-2.xx&oh=00_AfDSIwIeeDbsgbmFHZExTaaoeGIQ6Owxkv71qqJ7nJhGsw&oe=651EB866",
     link: "https://github.com/Tej-Deep/CDS_Depth_Estimation",
   },
   {
@@ -51,10 +51,10 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "Machine Learning",
-  "Data Science",
-  "Artificial Intelligence",
-  "Deep Learning",
+  // "Machine Learning",
+  // "Data Science",
+  // "Artificial Intelligence",
+  // "Deep Learning",
   "Computer Vision",
   "Natural Language Processing",
   "Reinforcement Learning",
