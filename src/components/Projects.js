@@ -13,7 +13,7 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             My Internships and Projects 
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justify">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justify-center">
           Throughout my journey in ML and AI, I've delved into various projects spanning Computer Vision, Natural Language Processing, Signal Processing, and Reinforcement Learning. These hands-on experiences have provided me with practical insights into using ML and AI to address real-world problems.
           </p>
         </div>
@@ -23,20 +23,28 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-full p-4">
-              <div className="flex relative w-full sm:w-[600px] h-[300px] overflow-hidden bg-gray-400 border border-white">
+              <div className="border-4 border-gray-800 w-full sm:w-[610px]">
+              <div className="w-full sm:w-[600px] bg-gray-900 text-white text-center py-2 overflow-hidden">
+                <h1 className="sm:text-lg title-font text-lg font-medium text-white">
+                  {project.title}
+                </h1>
+              </div>
+              <div className="flex relative w-full sm:w-[600px] h-[300px] overflow-hidden bg-gray-400">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-contain object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                
+                <div className="px-8 py-10 relative z-10 w-full bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm sm:text-base title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="sm:text-lg title-font text-lg font-medium text-white mb-3">
+                  {/* <h1 className="sm:text-lg title-font text-lg font-medium text-white mb-3">
                     {project.title}
-                  </h1>
+                  </h1> */}
                   <p className="sm:text-base text-xs leading-relaxed">{project.description}</p>
+                </div>
                 </div>
               </div>
             </a>

@@ -18,6 +18,11 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    // Check if name or email is empty
+    if (!name || !email) {
+      alert("Please fill in both the name and email fields.");
+      return;
+    }
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
