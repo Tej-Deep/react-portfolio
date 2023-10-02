@@ -13,7 +13,7 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             My Internships and Projects 
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justified-center">
           Throughout my journey in ML and AI, I've delved into various projects spanning Computer Vision, Natural Language Processing, Signal Processing, and Reinforcement Learning. These hands-on experiences have provided me with practical insights into using ML and AI to address real-world problems.
           </p>
         </div>
@@ -23,7 +23,7 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative w-[600px] h-[300px] overflow-hidden bg-gray-400 border border-white">
+              <div className="flex relative sm:w-[600px] h-[300px] overflow-hidden bg-gray-400 border border-white">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-contain object-center"
