@@ -9,7 +9,7 @@ export default function About() {
             Hi, I'm Pala Tej Deep.
           </h1>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            I love working on Machine Learning and Artificial Intelligence.
+          I'm passionate about creating AI and ML applications.
           </h1>
           <p className="mb-8 leading-relaxed text-justify">
           I'm Pala Tej Deep, a Final Year Undergraduate at SUTD, majoring in Computer Science and Design. My unwavering passion for Artificial Intelligence and Machine Learning drives my journey. Proficient in Java and Python, I specialize in machine learning, data analytics, and visualization, while also excelling in Android and Web app development. With a strong mathematical foundation and deep knowledge of AI and ML algorithms, I confidently tackle complex challenges.

@@ -13,17 +13,17 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             My Internships and Projects 
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justified-center">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justify">
           Throughout my journey in ML and AI, I've delved into various projects spanning Computer Vision, Natural Language Processing, Signal Processing, and Reinforcement Learning. These hands-on experiences have provided me with practical insights into using ML and AI to address real-world problems.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-20">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-full p-4">
-              <div className="flex relative w-full sm:w-[600px] h-[300px] overflow-hidden bg-gray-400 border border-white mb-4">
+              <div className="flex relative w-full sm:w-[600px] h-[300px] overflow-hidden bg-gray-400 border border-white">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-contain object-center"
