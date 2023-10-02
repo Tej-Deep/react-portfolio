@@ -78,12 +78,12 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          <p className="leading-relaxed mb-5 text-justify">
           You're welcome to contact me for any inquiries, collaborations, or connections. I appreciate your interest and look forward to engaging with you. Feel free to reach out via email or the form below, and let's explore opportunities together.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name*
+              Name<span className="text-red-500">*</span>
             </label>
             <input
               type="text"
@@ -95,7 +95,7 @@ export default function Contact() {
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email*
+              Email<span className="text-red-500">*</span>
             </label>
             <input
               type="email"
