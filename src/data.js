@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Pytorch and Computer Vision",
     description:
       "Led a group of 3 to research and design small AI models (CNNs) to tackle monocular depth estimation with faster inference time and performance close to larger state-of-the-art Vision Transformer models.",
-    image: "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/346315222_3060808950895266_4424650503650448548_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=49d041&_nc_ohc=rqY2Ud5acTIAX9xZro4&_nc_ht=scontent-sin6-2.xx&oh=00_AfDSIwIeeDbsgbmFHZExTaaoeGIQ6Owxkv71qqJ7nJhGsw&oe=651EB866",
+    image: "./cds_award.jpg",
     link: "https://github.com/Tej-Deep/CDS_Depth_Estimation",
   },
   {
